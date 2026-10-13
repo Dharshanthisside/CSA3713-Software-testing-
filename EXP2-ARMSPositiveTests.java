@@ -10,7 +10,7 @@ public class Q2_ARMSPositiveTests {
     public void setup() {
         driver = new ChromeDriver();
         driver.get(System.getProperty(
-            "app.url", "http://localhost:8080/arms"));
+            "app.url", "http://saveethaarms/arms"));
     }
 
     @Test
